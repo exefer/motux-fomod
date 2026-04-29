@@ -1,0 +1,15 @@
+[package]
+name = "motux-fomod"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+homepage = "https://github.com/exefer/motux-fomod"
+description = "A library for parsing and evaluating FOMOD mod installer configurations"
+repository = "https://github.com/exefer/motux-fomod"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[dependencies]
+quick-xml = { version = "0.39", features = ["serialize"] }
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
